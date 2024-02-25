@@ -6,10 +6,6 @@ body {
   position: relative;
   padding-bottom: 75px;
   min-height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: bottom;
 }
 li {
   list-style: none;
@@ -133,6 +129,7 @@ margin-top: 150px;
 }
 .cafe ul {
   background-color: white;
+  padding: 20px;
 }
 .texto_cafe {
   width: 80%;
@@ -146,4 +143,11 @@ margin-top: 150px;
 .caffee_menu_image{
   width: 20%;
   height: 90px;
+}
+.background {
+  background-image: url("/images/sample_menu_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
 }
