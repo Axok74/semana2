@@ -1,0 +1,149 @@
+@charset "utf-8";
+html {
+  height: 100%;
+}
+body {
+  position: relative;
+  padding-bottom: 75px;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+li {
+  list-style: none;
+}
+p, ul {
+  margin: 0;
+  padding: 0;
+}
+div,li {
+  box-sizing: border-box;
+}
+.header_nav {
+  background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: stretch;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.global_nav_item {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.global_nav_item:hover {
+  background: #fff;
+  color: #42210b;
+}
+.global_nav {
+  display: flex;
+  align-items: stretch;
+}
+.logo {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 100%;
+}
+.section_inner {
+  padding: 50px 10% 30px;
+}
+.key {
+  height: 500px;
+  background: center / cover no-repeat url("../images/sample_key.jpg");
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+}
+.key h1{
+  font-size: 2.5rem;
+/*  text-align: center;
+  text-align: left;*/
+margin-top: 150px;
+  margin-bottom: 50px;
+}
+.section_title {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.menu_title {
+  display: inline-block;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.5rem;
+  color: #42210b;
+  border-bottom: solid #42210b 1px;
+  margin-bottom: 20px;
+}
+.center {
+  text-align: center;
+}
+.caffee_menu_image {
+  width: 20%;
+  border-radius: 50%;
+  display: flex;
+}
+#img1{
+  float: right;
+  width: 35%;
+}
+#text1 {
+  float: left;
+  width: 60%;
+}
+.d1{
+  display: flex;
+  margin: 0 auto;
+  width: 1000px;
+  max-height: 300px;
+}
+.d1 ul{
+  display: flex;
+}
+.d1 ul li {
+  background-color: white;
+  display: flex;
+  width: 49%;
+  margin-right: 10px;
+}
+.d1 ul li img {
+  width: 55%;
+}
+.text1 {
+  width: 45%;
+  padding: 10px;
+}
+.cafe{
+  margin: 20px;
+  width: 1000px;
+  max-height: 300px;
+  margin: 0 auto;
+}
+.fila {
+  display: flex;
+}
+.cafe ul {
+  background-color: white;
+}
+.texto_cafe {
+  width: 80%;
+  margin-left: 10px;
+}
+.fila li {
+  display: flex;
+  width: 49%;
+  padding: 10px;
+}
+.caffee_menu_image{
+  width: 20%;
+  height: 90px;
+}
