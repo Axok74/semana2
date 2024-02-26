@@ -123,6 +123,7 @@ margin-top: 150px;
   width: 1000px;
   max-height: 300px;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 .fila {
   display: flex;
@@ -150,4 +151,32 @@ margin-top: 150px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom;
+}
+/*footer*/
+.footer{
+  background-color: #251e19;
+  height: 75px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.footer ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer ul li{
+  margin-right: 20px;
+  list-style-type: disc;
+  color: white;
+}
+.footer p {
+  margin: 0;
+  text-align: center;
+}
+.footer img{
+  width: 30%;
 }
