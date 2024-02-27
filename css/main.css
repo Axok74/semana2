@@ -101,6 +101,7 @@ margin-top: 150px;
   margin: 0 auto;
   width: 1000px;
   max-height: 300px;
+  margin-bottom: 40px;
 }
 .d1 ul{
   display: flex;
@@ -109,10 +110,18 @@ margin-top: 150px;
   background-color: white;
   display: flex;
   width: 49%;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 .d1 ul li img {
   width: 55%;
+}
+.p{
+  margin-top: 90px;
+  text-align: right;
+}
+.p2 {
+  margin-top: 65px;
+  text-align: right;
 }
 .text1 {
   width: 45%;
@@ -146,7 +155,7 @@ margin-top: 150px;
   height: 90px;
 }
 .background {
-  background-image: url("/images/sample_menu_bg.jpg");
+  background-image: url(../images/sample_menu_bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
